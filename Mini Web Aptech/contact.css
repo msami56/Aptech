@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+body{
+    background: url(/img/background\ 3.jpg);
+    background-size: cover;
+}
+
+.img{
+    background-repeat: no-repeat;
+    background: transparent;
+    backdrop-filter: blur(80px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.img img{
+    position: relative;
+    right: -100px;
+    width: 50px;
+    max-width: 100%;
+    height: auto;
+}
+
+.navbar{
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    top: -55px;
+    left: -90px;
+}
+
+.navbar a{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 10%;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: black;
+    transition: transform all ease 1s;
+}
+
+.navbar a:hover{
+    transform: translateX(1px);
+    color: white;
+    font-size: x-large;
+}
+
+.glass{
+    position: relative;
+    border: 2px solid white;
+    width: 900px;
+    height: 500px;
+    border-radius: 20px 20px 20px 20px;
+    top: 20px;
+    left: 250px;
+    backdrop-filter: blur(20px);
+}
+
+.txt{
+    position: relative;
+    top: 170px;
+    left: 25px;
+    color: white;
+}
+
+.txt p{
+    font-weight: 300;
+    font-size: 13px;
+}
+
+.txt h1{
+    font-size: 60px;
+}
+
+.frm-one{
+    position: relative;
+    top: 70px;
+}
+
+.frm h3{
+    font-weight: lighter;
+}
+
+h3{
+    position: relative;
+    display: inline-block;
+    font-weight: lighter;
+    font-size: .90rem;
+    top: 140px;
+    left: 250px;
+    margin: 10px;
+}
+
+h3 a{
+    color: white;
+}
+
+h3 a:hover{
+    color:black;
+}

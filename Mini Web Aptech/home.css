@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+body{
+    background: url(/img/Background.jpg);
+    background-size: cover;
+}
+
+.img{
+    background-repeat: no-repeat;
+    background: transparent;
+    backdrop-filter: blur(80px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.img img{
+    position: relative;
+    right: -100px;
+    width: 50px;
+    max-width: 100%;
+    height: auto;
+}
+
+.navbar{
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    top: -55px;
+    left: -90px;
+}
+
+.navbar a{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 10%;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: black;
+    transition: transform all ease 1s;
+}
+
+.navbar a:hover{
+    transform: translateX(1px);
+    color: white;
+    font-size: x-large;
+}
+
+.txt{
+    position: relative;
+    padding: 18px 8%;
+}
+
+.txt h2{
+    position: relative;
+    top: 100px;
+    font-size: 4rem;
+    font-weight: 700;
+    color: white;
+}
+
+.txt h3{
+    position: relative;
+    top: 100px;
+    color: #58D68D;
+    font-weight: 300;
+}
+
+.btn{
+    position: relative;
+    top: 130px;
+    background-color: #58D68D;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px 10px 10px 10px;
+    cursor: pointer;
+}
+
+.btn a{
+    position: relative;
+    top: 8px;
+    right: -12px;
+    color: black;
+}
+
+.btn:hover{
+    color: white;
+    opacity: 90%;
+}
+
+.btn a:hover{
+    color: white;
+}
